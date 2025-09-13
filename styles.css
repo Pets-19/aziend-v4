@@ -567,3 +567,11 @@ html {
         display: none !important;
     }
 }
+
+.uae-overview-link .flag-icon-box {
+    background-color: #0d2641; /* matches .bg-button-primary */
+    transition: background-color 0.2s ease;
+}
+.uae-overview-link:hover .flag-icon-box {
+    background-color: #ffcc33; /* matches .bg-custom-600 */
+}
