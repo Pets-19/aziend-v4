@@ -1,0 +1,210 @@
+.consultation-button-component .container {
+    background-color: #ffffff;
+    display: flex;
+    width: 460px;
+    height: 100px;
+    position: relative;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+}
+
+.consultation-button-component .container:hover {
+    transform: scale(1.05);
+    width: 250px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+}
+
+.consultation-button-component .container:hover .left-side {
+    width: 100%;
+}
+
+.consultation-button-component .left-side {
+    background-color: #5d87ff;
+    width: 130px;
+    height: 120px;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: width 0.3s ease-in-out;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+.consultation-button-component .right-side {
+    width: calc(100% - 130px);
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    justify-content: space-between;
+    white-space: nowrap;
+    transition: all 0.3s ease-in-out;
+}
+
+.consultation-button-component .right-side:hover {
+    background-color: #f8faff;
+}
+
+.consultation-button-component .arrow {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+    transition: transform 0.3s ease;
+}
+
+.consultation-button-component .right-side:hover .arrow {
+    transform: translateX(5px);
+}
+
+.consultation-button-component .new {
+    font-size: 23px;
+    margin-left: 20px;
+    font-weight: 500;
+    color: #333;
+}
+
+.consultation-button-component .calendar {
+    width: 70px;
+    height: 46px;
+    background-color: #ffffff;
+    border: 2px solid #d6e2ff;
+    border-radius: 6px;
+    position: absolute;
+    display: flex;
+    z-index: 10;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 5px 15px rgba(93, 135, 255, 0.3);
+}
+
+.consultation-button-component .calendar-line {
+    width: 100%;
+    height: 13px;
+    background-color: #a8c5ff;
+    border-radius: 4px 4px 0 0;
+}
+
+.consultation-button-component .calendar-dots {
+    width: 4px;
+    height: 4px;
+    background-color: #5d87ff;
+    box-shadow: 0 8px 0 0 #5d87ff, 8px 0px 0 0 #5d87ff, 8px 8px 0 0 #5d87ff;
+    border-radius: 50%;
+    margin-top: 8px;
+}
+
+.consultation-button-component .container:hover .calendar {
+    animation: slide-top 1.2s cubic-bezier(0.645, 0.045, 0.355, 1) both;
+}
+
+.consultation-button-component .container:hover .consult-icon {
+    animation: slide-post 1s cubic-bezier(0.165, 0.84, 0.44, 1) both;
+}
+
+.consultation-button-component .consult-icon {
+    width: 65px;
+    height: 65px;
+    background-color: #ffffff;
+    position: absolute;
+    z-index: 11;
+    top: 120px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
+
+.consultation-button-component .consult-icon::before,
+.consultation-button-component .consult-icon::after {
+    content: "";
+    position: absolute;
+    background-color: #5d87ff;
+    border-radius: 2px;
+}
+
+.consultation-button-component .consult-icon::before {
+    width: 30px;
+    height: 6px;
+}
+
+.consultation-button-component .consult-icon::after {
+    width: 6px;
+    height: 30px;
+}
+
+.consultation-button-component .checkmark {
+    width: 12px;
+    height: 24px;
+    border: solid #34c759;
+    border-width: 0 6px 6px 0;
+    transform: rotate(45deg);
+    opacity: 0;
+}
+
+.consultation-button-component .container:hover .checkmark {
+    animation: fade-in-fwd 0.4s 1s forwards;
+}
+
+.consultation-button-component .container:hover .consult-icon::before,
+.consultation-button-component .container:hover .consult-icon::after {
+    animation: fade-out 0.3s 0.8s forwards;
+}
+
+/* Keyframe animations do not need to be scoped */
+@keyframes slide-top {
+    0% {
+        transform: translateY(0);
+    }
+    50%,
+    60% {
+        transform: translateY(-70px) rotate(90deg) scale(0.9);
+    }
+    100% {
+        transform: translateY(-8px) rotate(90deg) scale(0.9);
+    }
+}
+
+@keyframes slide-post {
+    50% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-75px);
+    }
+}
+
+@keyframes fade-in-fwd {
+    0% {
+        opacity: 0;
+        transform: translateY(-10px) rotate(45deg);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0) rotate(45deg);
+    }
+}
+
+@keyframes fade-out {
+    to {
+        opacity: 0;
+    }
+}
+
+/* Responsive adjustments */
+@media only screen and (max-width: 480px) {
+    .consultation-button-component .container {
+        transform: scale(0.7);
+    }
+
+    .consultation-button-component .container:hover {
+        transform: scale(0.74);
+    }
+
+    .consultation-button-component .new {
+        font-size: 18px;
+    }
+}

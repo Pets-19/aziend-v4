@@ -1,0 +1,2123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes, viewport-fit=cover"
+        />
+        <title>Abu Dhabi Business Formation - Complete Guide | Aziend Consultancy</title>
+        <meta
+            name="description"
+            content="Comprehensive guide to Abu Dhabi business formation. Expert advice on company setup, free zones, mainland licenses, costs, and timelines. Start your Abu Dhabi business journey today."
+        />
+
+        <!-- Open Graph / Social Media -->
+        <meta
+            property="og:title"
+            content="Abu Dhabi Business Formation - Complete Guide | Aziend"
+        />
+        <meta
+            property="og:description"
+            content="Expert guide to Abu Dhabi business setup with detailed information on free zones, mainland options, costs, and procedures."
+        />
+        <meta
+            property="og:image"
+            content="https://aziend.com/images/og-image.jpg"
+        />
+        <meta property="og:url" content="https://aziend.com/abu-dhabi-business-formation.html" />
+        <meta name="twitter:card" content="summary_large_image" />
+
+        <!-- Additional SEO -->
+        <link rel="canonical" href="https://aziend.com/abu-dhabi-business-formation.html" />
+        <meta name="robots" content="index, follow" />
+
+        <!-- Favicon & App Icons -->
+        <link rel="icon" href="images/logo.svg" type="image/svg+xml" />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="favicon-16x16.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="apple-touch-icon.png"
+        />
+        <link rel="shortcut icon" href="favicon.ico" />
+
+        <!-- Optional meta for colors -->
+        <meta name="theme-color" content="#ffffff" />
+        <meta name="msapplication-TileColor" content="#ffffff" />
+
+        <!-- Tailwind CSS CDN -->
+        <script src="https://cdn.tailwindcss.com"></script>
+
+        <!-- Lucide Icons CDN -->
+        <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="styles.css" />
+        
+        <!-- Page-specific CSS to fix horizontal scroll -->
+        <style>
+            /* Prevent horizontal scrolling in hero section */
+            .hero-section {
+                overflow-x: hidden;
+                max-width: 100vw;
+            }
+            
+            /* Ensure heading text wraps properly on smaller screens */
+            .hero-heading {
+                word-wrap: break-word;
+                overflow-wrap: break-word;
+                hyphens: auto;
+                max-width: 100%;
+                min-width: 0; /* Allow flex items to shrink below content size */
+            }
+            
+            /* Responsive heading sizes to prevent overflow */
+            @media (max-width: 768px) {
+                .hero-heading {
+                    font-size: 2.5rem !important; /* between text-4xl and text-5xl */
+                    line-height: 1.1;
+                }
+            }
+            
+            @media (max-width: 640px) {
+                .hero-heading {
+                    font-size: 2.25rem !important; /* text-4xl equivalent */
+                    line-height: 1.1;
+                }
+            }
+            
+            @media (max-width: 480px) {
+                .hero-heading {
+                    font-size: 1.875rem !important; /* text-3xl equivalent */
+                    line-height: 1.2;
+                }
+            }
+            
+            @media (max-width: 375px) {
+                .hero-heading {
+                    font-size: 1.5rem !important; /* text-2xl equivalent */
+                    line-height: 1.2;
+                }
+            }
+            
+            /* Ensure buttons stack properly on small screens */
+            @media (max-width: 640px) {
+                .hero-buttons {
+                    flex-direction: column !important;
+                    gap: 0.75rem !important;
+                }
+                
+                .hero-buttons button {
+                    width: 100%;
+                    font-size: 1rem !important;
+                    padding: 0.875rem 1.5rem !important;
+                }
+            }
+            
+            /* Calculator section mobile optimization */
+            @media (max-width: 1024px) {
+                .calculator-grid {
+                    grid-template-columns: 1fr !important;
+                    gap: 2rem !important;
+                }
+            }
+            
+            /* Office selection buttons mobile optimization */
+            @media (max-width: 640px) {
+                .office-selection-grid {
+                    grid-template-columns: 1fr !important;
+                    gap: 0.5rem !important;
+                }
+                
+                .abudhabi-office-btn {
+                    padding: 0.75rem 1rem !important;
+                    font-size: 0.875rem !important;
+                }
+            }
+            
+            /* Mobile padding adjustments */
+            @media (max-width: 640px) {
+                .mobile-padding {
+                    padding-left: 1rem !important;
+                    padding-right: 1rem !important;
+                }
+                
+                .mobile-text-size h2 {
+                    font-size: 1.875rem !important; /* text-3xl */
+                }
+                
+                .mobile-text-size h3 {
+                    font-size: 1.25rem !important; /* text-xl */
+                }
+            }
+            
+            /* Free zone cards mobile optimization */
+            @media (max-width: 768px) {
+                .free-zone-grid {
+                    grid-template-columns: 1fr !important;
+                    gap: 1.5rem !important;
+                }
+            }
+            
+            @media (max-width: 640px) {
+                .free-zone-grid {
+                    grid-template-columns: 1fr !important;
+                    gap: 1rem !important;
+                }
+            }
+        </style>
+
+        <!-- JSON-LD Schema -->
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "Service",
+                "name": "Abu Dhabi Business Formation Services",
+                "description": "Complete Abu Dhabi business formation and company setup services",
+                "provider": {
+                    "@type": "Organization",
+                    "name": "Aziend Consultancy"
+                },
+                "areaServed": {
+                    "@type": "City",
+                    "name": "Abu Dhabi",
+                    "addressCountry": "AE"
+                }
+            }
+        </script>
+    </head>
+    <body class="min-h-screen bg-white text-gray-900">
+        <!-- Header Container -->
+        <div id="header-container">
+            <!-- Header content will be loaded from header.html -->
+        </div>
+
+        <!-- Main Content -->
+        <main>
+            <!-- Hero Section -->
+            <section class="hero-section py-20 bg-gradient-to-br from-blue-50 to-indigo-50">
+                <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 xl:px-16">
+                    <div class="grid lg:grid-cols-2 gap-12 items-center">
+                        <div>
+                            <div class="flex items-center mb-6 w-full overflow-hidden">
+                                <div class="bg-custom-600 text-white rounded-lg p-3 mr-4 flex-shrink-0">
+                                    <i data-lucide="building-2" class="w-8 h-8"></i>
+                                </div>
+                                <h1 class="hero-heading text-4xl md:text-5xl font-bold text-gray-900 flex-1 min-w-0">
+                                    Abu Dhabi Business Formation
+                                </h1>
+                            </div>
+                            <p class="text-xl text-gray-600 mb-8 leading-relaxed">
+                                Establish your business in Abu Dhabi, the UAE's capital and strategic economic hub. 
+                                From ADGM financial services to industrial zones, discover the perfect setup for your enterprise.
+                            </p>
+                            <div class="hero-buttons flex flex-col sm:flex-row gap-4 mb-8">
+                                <button class="px-8 py-4 bg-custom-600 text-white rounded-lg hover:bg-custom-700 transition-colors font-semibold text-lg">
+                                    Start Your Abu Dhabi Business
+                                </button>
+                                <button class="px-8 py-4 border border-custom-600 text-custom-600 rounded-lg hover:bg-custom-600 hover:text-white transition-colors font-semibold text-lg">
+                                    Free Consultation
+                                </button>
+                            </div>
+                            <div class="flex items-center text-sm text-gray-500 flex-wrap">
+                                <i data-lucide="clock" class="w-4 h-4 mr-2 flex-shrink-0"></i>
+                                <span>Setup time: 5-10 business days | 300+ successful formations</span>
+                            </div>
+                        </div>
+                        <div class="lg:text-right">
+                            <div class="bg-white rounded-2xl p-8 shadow-xl border border-gray-200">
+                                <h3 class="text-2xl font-bold text-gray-900 mb-6">Abu Dhabi Quick Facts</h3>
+                                <div class="space-y-4">
+                                    <div class="flex justify-between items-center">
+                                        <span class="text-gray-600">Corporate Tax:</span>
+                                        <span class="font-semibold text-custom-600">9%*</span>
+                                    </div>
+                                    <div class="flex justify-between items-center">
+                                        <span class="text-gray-600">Personal Tax:</span>
+                                        <span class="font-semibold text-custom-600">0%</span>
+                                    </div>
+                                    <div class="flex justify-between items-center">
+                                        <span class="text-gray-600">Foreign Ownership:</span>
+                                        <span class="font-semibold text-custom-600">100%</span>
+                                    </div>
+                                    <div class="flex justify-between items-center">
+                                        <span class="text-gray-600">Minimum Capital:</span>
+                                        <span class="font-semibold text-custom-600">AED 1,000</span>
+                                    </div>
+                                    <div class="flex justify-between items-center">
+                                        <span class="text-gray-600">Setup Time:</span>
+                                        <span class="font-semibold text-custom-600">5-10 days</span>
+                                    </div>
+                                </div>
+                                <div class="mt-6 pt-4 border-t border-gray-200">
+                                    <p class="text-xs text-gray-500">*9% on profits above AED 375,000</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Abu Dhabi Business Setup Options -->
+            <section class="py-20 bg-white">
+                <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 xl:px-16">
+                    <div class="text-center mb-16">
+                        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                            Choose Your Abu Dhabi Business Setup
+                        </h2>
+                        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                            Abu Dhabi offers diverse business formation options tailored to different industries, 
+                            from government sectors to energy and finance.
+                        </p>
+                    </div>
+
+                    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                        <!-- Abu Dhabi Mainland Company -->
+                        <div class="bg-gradient-to-br from-gray-50 to-white rounded-xl p-8 border border-gray-200 hover:shadow-lg transition-all duration-300">
+                            <div class="flex items-center mb-6">
+                                <div class="bg-custom-600 text-white rounded-lg p-3 mr-4">
+                                    <i data-lucide="map-pin" class="w-6 h-6"></i>
+                                </div>
+                                <h3 class="text-xl font-bold text-gray-900">Abu Dhabi Mainland</h3>
+                            </div>
+                            <div class="space-y-4 mb-6">
+                                <div class="flex items-start">
+                                    <i data-lucide="check-circle" class="w-5 h-5 text-green-600 mr-3 mt-0.5"></i>
+                                    <span class="text-gray-600">Trade throughout UAE and globally</span>
+                                </div>
+                                <div class="flex items-start">
+                                    <i data-lucide="check-circle" class="w-5 h-5 text-green-600 mr-3 mt-0.5"></i>
+                                    <span class="text-gray-600">Access to government contracts</span>
+                                </div>
+                                <div class="flex items-start">
+                                    <i data-lucide="check-circle" class="w-5 h-5 text-green-600 mr-3 mt-0.5"></i>
+                                    <span class="text-gray-600">Local sponsor required (51% UAE national)</span>
+                                </div>
+                                <div class="flex items-start">
+                                    <i data-lucide="check-circle" class="w-5 h-5 text-green-600 mr-3 mt-0.5"></i>
+                                    <span class="text-gray-600">Physical office mandatory</span>
+                                </div>
+                            </div>
+                            <div class="border-t border-gray-200 pt-4">
+                                <div class="flex justify-between items-center mb-4">
+                                    <span class="text-gray-600">Setup Cost:</span>
+                                    <span class="font-bold text-lg text-gray-900">AED 30,000+</span>
+                                </div>
+                                <div class="flex justify-between items-center mb-4">
+                                    <span class="text-gray-600">Timeline:</span>
+                                    <span class="font-semibold text-custom-600">8-12 days</span>
+                                </div>
+                                <button class="w-full px-4 py-3 bg-custom-600 text-white rounded-lg hover:bg-custom-700 transition-colors font-semibold">
+                                    Choose Mainland
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Abu Dhabi Free Zone Company -->
+                        <div class="bg-gradient-to-br from-custom-50 to-white rounded-xl p-8 border-2 border-custom-600 hover:shadow-lg transition-all duration-300 relative">
+                            <div class="absolute -top-3 left-1/2 transform -translate-x-1/2">
+                                <span class="bg-custom-600 text-white px-4 py-1 rounded-full text-sm font-semibold">Most Popular</span>
+                            </div>
+                            <div class="flex items-center mb-6">
+                                <div class="bg-custom-600 text-white rounded-lg p-3 mr-4">
+                                    <i data-lucide="shield-check" class="w-6 h-6"></i>
+                                </div>
+                                <h3 class="text-xl font-bold text-gray-900">Abu Dhabi Free Zone</h3>
+                            </div>
+                            <div class="space-y-4 mb-6">
+                                <div class="flex items-start">
+                                    <i data-lucide="check-circle" class="w-5 h-5 text-green-600 mr-3 mt-0.5"></i>
+                                    <span class="text-gray-600">100% foreign ownership</span>
+                                </div>
+                                <div class="flex items-start">
+                                    <i data-lucide="check-circle" class="w-5 h-5 text-green-600 mr-3 mt-0.5"></i>
+                                    <span class="text-gray-600">No corporate tax (conditions apply)</span>
+                                </div>
+                                <div class="flex items-start">
+                                    <i data-lucide="check-circle" class="w-5 h-5 text-green-600 mr-3 mt-0.5"></i>
+                                    <span class="text-gray-600">Full profit repatriation</span>
+                                </div>
+                                <div class="flex items-start">
+                                    <i data-lucide="check-circle" class="w-5 h-5 text-green-600 mr-3 mt-0.5"></i>
+                                    <span class="text-gray-600">Streamlined licensing process</span>
+                                </div>
+                            </div>
+                            <div class="border-t border-gray-200 pt-4">
+                                <div class="flex justify-between items-center mb-4">
+                                    <span class="text-gray-600">Setup Cost:</span>
+                                    <span class="font-bold text-lg text-gray-900">AED 18,000+</span>
+                                </div>
+                                <div class="flex justify-between items-center mb-4">
+                                    <span class="text-gray-600">Timeline:</span>
+                                    <span class="font-semibold text-custom-600">5-7 days</span>
+                                </div>
+                                <button class="w-full px-4 py-3 bg-custom-600 text-white rounded-lg hover:bg-custom-700 transition-colors font-semibold">
+                                    Choose Free Zone
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Abu Dhabi Offshore Company -->
+                        <div class="bg-gradient-to-br from-gray-50 to-white rounded-xl p-8 border border-gray-200 hover:shadow-lg transition-all duration-300">
+                            <div class="flex items-center mb-6">
+                                <div class="bg-purple-600 text-white rounded-lg p-3 mr-4">
+                                    <i data-lucide="globe" class="w-6 h-6"></i>
+                                </div>
+                                <h3 class="text-xl font-bold text-gray-900">Abu Dhabi Offshore</h3>
+                            </div>
+                            <div class="space-y-4 mb-6">
+                                <div class="flex items-start">
+                                    <i data-lucide="check-circle" class="w-5 h-5 text-green-600 mr-3 mt-0.5"></i>
+                                    <span class="text-gray-600">International business only</span>
+                                </div>
+                                <div class="flex items-start">
+                                    <i data-lucide="check-circle" class="w-5 h-5 text-green-600 mr-3 mt-0.5"></i>
+                                    <span class="text-gray-600">100% foreign ownership</span>
+                                </div>
+                                <div class="flex items-start">
+                                    <i data-lucide="check-circle" class="w-5 h-5 text-green-600 mr-3 mt-0.5"></i>
+                                    <span class="text-gray-600">No corporate tax</span>
+                                </div>
+                                <div class="flex items-start">
+                                    <i data-lucide="check-circle" class="w-5 h-5 text-green-600 mr-3 mt-0.5"></i>
+                                    <span class="text-gray-600">Maximum privacy protection</span>
+                                </div>
+                            </div>
+                            <div class="border-t border-gray-200 pt-4">
+                                <div class="flex justify-between items-center mb-4">
+                                    <span class="text-gray-600">Setup Cost:</span>
+                                    <span class="font-bold text-lg text-gray-900">AED 15,000+</span>
+                                </div>
+                                <div class="flex justify-between items-center mb-4">
+                                    <span class="text-gray-600">Timeline:</span>
+                                    <span class="font-semibold text-custom-600">5-7 days</span>
+                                </div>
+                                <button class="w-full px-4 py-3 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors font-semibold">
+                                    Choose Offshore
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Top Abu Dhabi Free Zones -->
+            <section class="py-20 bg-gray-50">
+                <div class="mobile-padding max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 xl:px-16">
+                    <div class="mobile-text-size text-center mb-16">
+                        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                            Top Abu Dhabi Free Zones
+                        </h2>
+                        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                            Explore Abu Dhabi's strategic free zones, each tailored for specific industries and business objectives.
+                        </p>
+                    </div>
+
+                    <div class="free-zone-grid grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                        <!-- ADGM -->
+                        <div class="bg-white rounded-xl p-6 border border-gray-200 hover:shadow-lg transition-shadow">
+                            <div class="flex items-center mb-4">
+                                <div class="bg-custom-600 text-white rounded-lg p-3 mr-4">
+                                    <i data-lucide="banknote" class="w-6 h-6"></i>
+                                </div>
+                                <div>
+                                    <h3 class="text-lg font-bold text-gray-900">ADGM</h3>
+                                    <p class="text-sm text-gray-600">Abu Dhabi Global Market</p>
+                                </div>
+                            </div>
+                            <p class="text-gray-600 mb-4 text-sm">
+                                International financial center with English common law framework. Perfect for banking, insurance, and fintech companies.
+                            </p>
+                            <div class="space-y-2 text-sm mb-4">
+                                <div class="flex justify-between">
+                                    <span class="text-gray-600">License Cost:</span>
+                                    <span class="font-semibold">AED 40,000+</span>
+                                </div>
+                                <div class="flex justify-between">
+                                    <span class="text-gray-600">Office Space:</span>
+                                    <span class="font-semibold">Premium</span>
+                                </div>
+                                <div class="flex justify-between">
+                                    <span class="text-gray-600">Activities:</span>
+                                    <span class="font-semibold">Financial Services</span>
+                                </div>
+                            </div>
+                            <button class="w-full px-4 py-2 border border-blue-600 text-blue-600 rounded-lg hover:bg-blue-600 hover:text-white transition-colors">
+                                Learn More About ADGM
+                            </button>
+                        </div>
+
+                        <!-- KIZAD -->
+                        <div class="bg-white rounded-xl p-6 border border-gray-200 hover:shadow-lg transition-shadow">
+                            <div class="flex items-center mb-4">
+                                <div class="bg-green-600 text-white rounded-lg p-3 mr-4">
+                                    <i data-lucide="factory" class="w-6 h-6"></i>
+                                </div>
+                                <div>
+                                    <h3 class="text-lg font-bold text-gray-900">KIZAD</h3>
+                                    <p class="text-sm text-gray-600">Khalifa Industrial Zone Abu Dhabi</p>
+                                </div>
+                            </div>
+                            <p class="text-gray-600 mb-4 text-sm">
+                                Major industrial and logistics hub with direct port access. Ideal for manufacturing, trading, and logistics operations.
+                            </p>
+                            <div class="space-y-2 text-sm mb-4">
+                                <div class="flex justify-between">
+                                    <span class="text-gray-600">License Cost:</span>
+                                    <span class="font-semibold">AED 25,000+</span>
+                                </div>
+                                <div class="flex justify-between">
+                                    <span class="text-gray-600">Office Space:</span>
+                                    <span class="font-semibold">Industrial</span>
+                                </div>
+                                <div class="flex justify-between">
+                                    <span class="text-gray-600">Activities:</span>
+                                    <span class="font-semibold">Manufacturing</span>
+                                </div>
+                            </div>
+                            <button class="w-full px-4 py-2 border border-green-600 text-green-600 rounded-lg hover:bg-green-600 hover:text-white transition-colors">
+                                Learn More About KIZAD
+                            </button>
+                        </div>
+
+                        <!-- ADAFZ -->
+                        <div class="bg-white rounded-xl p-6 border border-gray-200 hover:shadow-lg transition-shadow">
+                            <div class="flex items-center mb-4">
+                                <div class="bg-red-600 text-white rounded-lg p-3 mr-4">
+                                    <i data-lucide="plane" class="w-6 h-6"></i>
+                                </div>
+                                <div>
+                                    <h3 class="text-lg font-bold text-gray-900">ADAFZ</h3>
+                                    <p class="text-sm text-gray-600">Abu Dhabi Airport Free Zone</p>
+                                </div>
+                            </div>
+                            <p class="text-gray-600 mb-4 text-sm">
+                                Strategic location near Abu Dhabi Airport. Perfect for aviation services, cargo, and companies requiring air connectivity.
+                            </p>
+                            <div class="space-y-2 text-sm mb-4">
+                                <div class="flex justify-between">
+                                    <span class="text-gray-600">License Cost:</span>
+                                    <span class="font-semibold">AED 22,000+</span>
+                                </div>
+                                <div class="flex justify-between">
+                                    <span class="text-gray-600">Office Space:</span>
+                                    <span class="font-semibold">Standard</span>
+                                </div>
+                                <div class="flex justify-between">
+                                    <span class="text-gray-600">Activities:</span>
+                                    <span class="font-semibold">Aviation & Logistics</span>
+                                </div>
+                            </div>
+                            <button class="w-full px-4 py-2 border border-red-600 text-red-600 rounded-lg hover:bg-red-600 hover:text-white transition-colors">
+                                Learn More About ADAFZ
+                            </button>
+                        </div>
+
+                        <!-- TWOFOUR54 -->
+                        <div class="bg-white rounded-xl p-6 border border-gray-200 hover:shadow-lg transition-shadow">
+                            <div class="flex items-center mb-4">
+                                <div class="bg-purple-600 text-white rounded-lg p-3 mr-4">
+                                    <i data-lucide="video" class="w-6 h-6"></i>
+                                </div>
+                                <div>
+                                    <h3 class="text-lg font-bold text-gray-900">twofour54</h3>
+                                    <p class="text-sm text-gray-600">Abu Dhabi Media Zone</p>
+                                </div>
+                            </div>
+                            <p class="text-gray-600 mb-4 text-sm">
+                                Premier media and entertainment hub in the Middle East. Ideal for content creation, broadcasting, and digital media.
+                            </p>
+                            <div class="space-y-2 text-sm mb-4">
+                                <div class="flex justify-between">
+                                    <span class="text-gray-600">License Cost:</span>
+                                    <span class="font-semibold">AED 30,000+</span>
+                                </div>
+                                <div class="flex justify-between">
+                                    <span class="text-gray-600">Office Space:</span>
+                                    <span class="font-semibold">Creative</span>
+                                </div>
+                                <div class="flex justify-between">
+                                    <span class="text-gray-600">Activities:</span>
+                                    <span class="font-semibold">Media & Entertainment</span>
+                                </div>
+                            </div>
+                            <button class="w-full px-4 py-2 border border-purple-600 text-purple-600 rounded-lg hover:bg-purple-600 hover:text-white transition-colors">
+                                Learn More About twofour54
+                            </button>
+                        </div>
+
+                        <!-- ZonesCorp -->
+                        <div class="bg-white rounded-xl p-6 border border-gray-200 hover:shadow-lg transition-shadow">
+                            <div class="flex items-center mb-4">
+                                <div class="bg-orange-600 text-white rounded-lg p-3 mr-4">
+                                    <i data-lucide="cpu" class="w-6 h-6"></i>
+                                </div>
+                                <div>
+                                    <h3 class="text-lg font-bold text-gray-900">ZonesCorp</h3>
+                                    <p class="text-sm text-gray-600">Abu Dhabi Investment Zone</p>
+                                </div>
+                            </div>
+                            <p class="text-gray-600 mb-4 text-sm">
+                                Technology and innovation focused zone. Perfect for IT services, tech startups, and research & development.
+                            </p>
+                            <div class="space-y-2 text-sm mb-4">
+                                <div class="flex justify-between">
+                                    <span class="text-gray-600">License Cost:</span>
+                                    <span class="font-semibold">AED 20,000+</span>
+                                </div>
+                                <div class="flex justify-between">
+                                    <span class="text-gray-600">Office Space:</span>
+                                    <span class="font-semibold">Flexible</span>
+                                </div>
+                                <div class="flex justify-between">
+                                    <span class="text-gray-600">Activities:</span>
+                                    <span class="font-semibold">Technology</span>
+                                </div>
+                            </div>
+                            <button class="w-full px-4 py-2 border border-orange-600 text-orange-600 rounded-lg hover:bg-orange-600 hover:text-white transition-colors">
+                                Learn More About ZonesCorp
+                            </button>
+                        </div>
+
+                        <!-- MASDAR -->
+                        <div class="bg-white rounded-xl p-6 border border-gray-200 hover:shadow-lg transition-shadow">
+                            <div class="flex items-center mb-4">
+                                <div class="bg-cyan-600 text-white rounded-lg p-3 mr-4">
+                                    <i data-lucide="zap" class="w-6 h-6"></i>
+                                </div>
+                                <div>
+                                    <h3 class="text-lg font-bold text-gray-900">Masdar City</h3>
+                                    <p class="text-sm text-gray-600">Sustainable City Free Zone</p>
+                                </div>
+                            </div>
+                            <p class="text-gray-600 mb-4 text-sm">
+                                World's leading sustainable urban development. Ideal for clean technology, renewable energy, and sustainable businesses.
+                            </p>
+                            <div class="space-y-2 text-sm mb-4">
+                                <div class="flex justify-between">
+                                    <span class="text-gray-600">License Cost:</span>
+                                    <span class="font-semibold">AED 35,000+</span>
+                                </div>
+                                <div class="flex justify-between">
+                                    <span class="text-gray-600">Office Space:</span>
+                                    <span class="font-semibold">Sustainable</span>
+                                </div>
+                                <div class="flex justify-between">
+                                    <span class="text-gray-600">Activities:</span>
+                                    <span class="font-semibold">CleanTech & Energy</span>
+                                </div>
+                            </div>
+                            <button class="w-full px-4 py-2 border border-cyan-600 text-cyan-600 rounded-lg hover:bg-cyan-600 hover:text-white transition-colors">
+                                Learn More About Masdar
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="text-center mt-12">
+                        <button class="px-8 py-3 bg-custom-600 text-white rounded-lg hover:bg-custom-700 transition-colors font-semibold">
+                            Compare All Abu Dhabi Free Zones
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Step-by-Step Process -->
+            <section class="py-20 bg-white">
+                <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 xl:px-16">
+                    <div class="text-center mb-16">
+                        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                            Abu Dhabi Business Setup Process
+                        </h2>
+                        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                            Follow our proven 7-step process to establish your Abu Dhabi business efficiently and in compliance with regulations.
+                        </p>
+                    </div>
+
+                    <div class="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
+                        <!-- Step 1 -->
+                        <div class="text-center">
+                            <div class="bg-custom-600 text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4 text-xl font-bold">
+                                1
+                            </div>
+                            <h3 class="text-lg font-bold text-gray-900 mb-3">Choose Business Type</h3>
+                            <p class="text-gray-600 text-sm">
+                                Select between mainland, free zone, or offshore based on your business needs and target market.
+                            </p>
+                        </div>
+
+                        <!-- Step 2 -->
+                        <div class="text-center">
+                            <div class="bg-custom-600 text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4 text-xl font-bold">
+                                2
+                            </div>
+                            <h3 class="text-lg font-bold text-gray-900 mb-3">Select Activities</h3>
+                            <p class="text-gray-600 text-sm">
+                                Define your business activities ensuring alignment with Abu Dhabi's regulatory requirements.
+                            </p>
+                        </div>
+
+                        <!-- Step 3 -->
+                        <div class="text-center">
+                            <div class="bg-custom-600 text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4 text-xl font-bold">
+                                3
+                            </div>
+                            <h3 class="text-lg font-bold text-gray-900 mb-3">Reserve Trade Name</h3>
+                            <p class="text-gray-600 text-sm">
+                                Submit your preferred company name for approval and reservation with Abu Dhabi authorities.
+                            </p>
+                        </div>
+
+                        <!-- Step 4 -->
+                        <div class="text-center">
+                            <div class="bg-custom-600 text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4 text-xl font-bold">
+                                4
+                            </div>
+                            <h3 class="text-lg font-bold text-gray-900 mb-3">Prepare Documents</h3>
+                            <p class="text-gray-600 text-sm">
+                                Compile and attest all required documents including passports, educational certificates, and business plans.
+                            </p>
+                        </div>
+
+                        <!-- Step 5 -->
+                        <div class="text-center">
+                            <div class="bg-custom-600 text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4 text-xl font-bold">
+                                5
+                            </div>
+                            <h3 class="text-lg font-bold text-gray-900 mb-3">Submit Application</h3>
+                            <p class="text-gray-600 text-sm">
+                                File your license application with relevant Abu Dhabi authority and pay government fees.
+                            </p>
+                        </div>
+
+                        <!-- Step 6 -->
+                        <div class="text-center">
+                            <div class="bg-custom-600 text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4 text-xl font-bold">
+                                6
+                            </div>
+                            <h3 class="text-lg font-bold text-gray-900 mb-3">Secure Office Space</h3>
+                            <p class="text-gray-600 text-sm">
+                                Arrange suitable office space - physical office, flexi-desk, or virtual office as per requirements.
+                            </p>
+                        </div>
+
+                        <!-- Step 7 -->
+                        <div class="text-center">
+                            <div class="bg-custom-600 text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4 text-xl font-bold">
+                                7
+                            </div>
+                            <h3 class="text-lg font-bold text-gray-900 mb-3">Receive License</h3>
+                            <p class="text-gray-600 text-sm">
+                                Collect your trade license and commence business operations. Apply for visas and open bank accounts.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="text-center mt-12">
+                        <div class="bg-gray-50 rounded-xl p-8">
+                            <h3 class="text-2xl font-bold text-gray-900 mb-4">Need Help with the Process?</h3>
+                            <p class="text-gray-600 mb-6">
+                                Our Abu Dhabi business setup specialists manage the entire process for you, ensuring full compliance and efficiency.
+                            </p>
+                            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                                <button class="px-8 py-3 bg-custom-600 text-white rounded-lg hover:bg-custom-700 transition-colors font-semibold">
+                                    Get Expert Help
+                                </button>
+                                <button class="px-8 py-3 border border-custom-600 text-custom-600 rounded-lg hover:bg-custom-600 hover:text-white transition-colors font-semibold">
+                                    Schedule Consultation
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Abu Dhabi Business Calculator -->
+            <section class="py-20 bg-gray-50">
+                <div class="mobile-padding max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 xl:px-16">
+                    <div class="mobile-text-size text-center mb-16">
+                        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                            Abu Dhabi Business Setup Cost Calculator
+                        </h2>
+                        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                            Get instant cost estimates for your Abu Dhabi business formation with our specialized calculator.
+                        </p>
+                    </div>
+
+                    <div class="bg-white rounded-xl p-8 shadow-lg border border-gray-200">
+                        <div class="calculator-grid grid lg:grid-cols-2 gap-8">
+                            <!-- Calculator Form -->
+                            <div>
+                                <h3 class="text-2xl font-bold text-gray-900 mb-6">Calculate Your Setup Costs</h3>
+                                
+                                <div class="space-y-6">
+                                    <!-- Jurisdiction Selection -->
+                                    <div>
+                                        <label class="block text-sm font-medium text-gray-700 mb-2">
+                                            Abu Dhabi Jurisdiction
+                                        </label>
+                                        <select id="abudhabi-jurisdiction" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-custom-600 focus:border-custom-600">
+                                            <option value="mainland">Abu Dhabi Mainland</option>
+                                            <option value="adgm">ADGM (Abu Dhabi Global Market)</option>
+                                            <option value="kizad">KIZAD (Khalifa Industrial Zone)</option>
+                                            <option value="adafz">ADAFZ (Airport Free Zone)</option>
+                                            <option value="twofour54">twofour54 (Media Zone)</option>
+                                            <option value="zonescorp">ZonesCorp (Investment Zone)</option>
+                                            <option value="masdar">Masdar City</option>
+                                        </select>
+                                    </div>
+
+                                    <!-- Business Activity -->
+                                    <div>
+                                        <label class="block text-sm font-medium text-gray-700 mb-2">
+                                            Business Activity
+                                        </label>
+                                        <select id="abudhabi-activity" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-custom-600 focus:border-custom-600">
+                                            <option value="trading">General Trading</option>
+                                            <option value="consulting">Consulting Services</option>
+                                            <option value="technology">Technology & IT</option>
+                                            <option value="financial">Financial Services</option>
+                                            <option value="manufacturing">Manufacturing</option>
+                                            <option value="energy">Energy & Oil</option>
+                                            <option value="media">Media & Entertainment</option>
+                                            <option value="healthcare">Healthcare</option>
+                                        </select>
+                                    </div>
+
+                                    <!-- Number of Shareholders -->
+                                    <div>
+                                        <label class="block text-sm font-medium text-gray-700 mb-2">
+                                            Number of Shareholders
+                                        </label>
+                                        <select id="abudhabi-shareholders" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-custom-600 focus:border-custom-600">
+                                            <option value="1">1 Shareholder</option>
+                                            <option value="2">2 Shareholders</option>
+                                            <option value="3">3 Shareholders</option>
+                                            <option value="4">4+ Shareholders</option>
+                                        </select>
+                                    </div>
+
+                                    <!-- Number of Visas -->
+                                    <div>
+                                        <label class="block text-sm font-medium text-gray-700 mb-2">
+                                            Number of Visas: <span id="abudhabi-visa-count" class="font-semibold text-custom-600">2</span>
+                                        </label>
+                                        <input type="range" id="abudhabi-visas" min="0" max="10" value="2" class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer slider">
+                                    </div>
+
+                                    <!-- Office Type -->
+                                    <div>
+                                        <label class="block text-sm font-medium text-gray-700 mb-3">
+                                            Office Type
+                                        </label>
+                                        <div class="office-selection-grid grid grid-cols-3 gap-3">
+                                            <button type="button" class="abudhabi-office-btn px-4 py-3 border border-gray-300 rounded-lg text-sm font-medium hover:border-custom-600 transition-colors active bg-custom-600 text-white" data-type="virtual">
+                                                Virtual Office
+                                            </button>
+                                            <button type="button" class="abudhabi-office-btn px-4 py-3 border border-gray-300 rounded-lg text-sm font-medium hover:border-custom-600 transition-colors" data-type="flexi">
+                                                Flexi Desk
+                                            </button>
+                                            <button type="button" class="abudhabi-office-btn px-4 py-3 border border-gray-300 rounded-lg text-sm font-medium hover:border-custom-600 transition-colors" data-type="dedicated">
+                                                Dedicated Office
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                    <!-- Calculate Button -->
+                                    <button id="calculate-abudhabi-cost" class="w-full px-6 py-4 bg-custom-600 text-white rounded-lg hover:bg-custom-700 transition-colors font-semibold text-lg">
+                                        Calculate Abu Dhabi Setup Costs
+                                    </button>
+                                </div>
+                            </div>
+
+                            <!-- Cost Display -->
+                            <div id="abudhabi-cost-display" class="bg-gray-50 rounded-xl p-6">
+                                <h3 class="text-2xl font-bold text-gray-900 mb-6">Cost Breakdown</h3>
+                                
+                                <div class="space-y-4">
+                                    <div class="flex justify-between items-center py-2 border-b border-gray-200">
+                                        <span class="text-gray-600">License Cost:</span>
+                                        <span id="abudhabi-license-cost" class="font-semibold text-gray-900">AED 18,000</span>
+                                    </div>
+                                    <div class="flex justify-between items-center py-2 border-b border-gray-200">
+                                        <span class="text-gray-600">Government Fees:</span>
+                                        <span id="abudhabi-govt-cost" class="font-semibold text-gray-900">AED 3,000</span>
+                                    </div>
+                                    <div class="flex justify-between items-center py-2 border-b border-gray-200">
+                                        <span class="text-gray-600">Office Cost:</span>
+                                        <span id="abudhabi-office-cost" class="font-semibold text-gray-900">AED 2,000</span>
+                                    </div>
+                                    <div class="flex justify-between items-center py-2 border-b border-gray-200">
+                                        <span class="text-gray-600">Visa Processing:</span>
+                                        <span id="abudhabi-visa-cost" class="font-semibold text-gray-900">AED 6,000</span>
+                                    </div>
+                                    <div class="flex justify-between items-center py-2 border-b border-gray-200">
+                                        <span class="text-gray-600">Service Fees:</span>
+                                        <span id="abudhabi-service-cost" class="font-semibold text-gray-900">AED 5,000</span>
+                                    </div>
+                                    <div class="flex justify-between items-center py-3 bg-custom-50 px-4 rounded-lg border-2 border-blue-200">
+                                        <span class="font-semibold text-gray-900">Total Cost:</span>
+                                        <span id="abudhabi-total-cost" class="font-bold text-xl text-custom-600">AED 34,000</span>
+                                    </div>
+                                </div>
+
+                                <div class="mt-6 text-center">
+                                    <div class="text-sm text-gray-600 mb-2">Estimated Timeline:</div>
+                                    <div id="abudhabi-timeline" class="text-lg font-semibold text-custom-600">5-7 days</div>
+                                </div>
+
+                                <div class="mt-6 p-4 bg-custom-50 rounded-lg">
+                                    <div class="text-sm text-custom-800">
+                                        <i data-lucide="info" class="w-4 h-4 inline mr-2"></i>
+                                        Costs are estimates and may vary based on specific requirements. Contact us for detailed pricing.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Why Choose Abu Dhabi -->
+            <section class="py-20 bg-white">
+                <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 xl:px-16">
+                    <div class="text-center mb-16">
+                        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                            Why Choose Abu Dhabi for Your Business?
+                        </h2>
+                        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                            Abu Dhabi offers unique advantages as the UAE's capital, combining government proximity, 
+                            energy sector leadership, and sustainable business practices.
+                        </p>
+                    </div>
+
+                    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                        <!-- Capital City Advantage -->
+                        <div class="text-center">
+                            <div class="bg-custom-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                                <i data-lucide="landmark" class="w-8 h-8 text-custom-600"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-gray-900 mb-3">Capital City Status</h3>
+                            <p class="text-gray-600">
+                                Direct access to government entities, regulatory authorities, and policy makers for streamlined business operations.
+                            </p>
+                        </div>
+
+                        <!-- Energy & Resources Hub -->
+                        <div class="text-center">
+                            <div class="bg-orange-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                                <i data-lucide="zap" class="w-8 h-8 text-orange-600"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-gray-900 mb-3">Energy Capital</h3>
+                            <p class="text-gray-600">
+                                Home to major oil companies and renewable energy initiatives, offering unparalleled opportunities in energy sector.
+                            </p>
+                        </div>
+
+                        <!-- Sustainable Development -->
+                        <div class="text-center">
+                            <div class="bg-green-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                                <i data-lucide="leaf" class="w-8 h-8 text-green-600"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-gray-900 mb-3">Sustainability Focus</h3>
+                            <p class="text-gray-600">
+                                Leading sustainable development initiatives including Masdar City and green technology investments.
+                            </p>
+                        </div>
+
+                        <!-- Financial Services Hub -->
+                        <div class="text-center">
+                            <div class="bg-custom-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                                <i data-lucide="building-2" class="w-8 h-8 text-custom-600"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-gray-900 mb-3">Financial Excellence</h3>
+                            <p class="text-gray-600">
+                                ADGM provides world-class financial infrastructure with English common law framework and international standards.
+                            </p>
+                        </div>
+
+                        <!-- Cultural Heritage -->
+                        <div class="text-center">
+                            <div class="bg-purple-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                                <i data-lucide="crown" class="w-8 h-8 text-purple-600"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-gray-900 mb-3">Cultural Hub</h3>
+                            <p class="text-gray-600">
+                                Rich cultural heritage with world-class museums, arts districts, and international cultural exchange programs.
+                            </p>
+                        </div>
+
+                        <!-- Strategic Investment -->
+                        <div class="text-center">
+                            <div class="bg-red-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                                <i data-lucide="trending-up" class="w-8 h-8 text-red-600"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-gray-900 mb-3">Strategic Investment</h3>
+                            <p class="text-gray-600">
+                                Major sovereign wealth funds and strategic investments creating opportunities across multiple sectors.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Documentation Checklist -->
+            <section class="py-20 bg-gray-50">
+                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                        <div>
+                            <h2
+                                class="text-3xl md:text-4xl font-bold text-gray-800 mb-6"
+                            >
+                                Abu Dhabi Documentation
+                            </h2>
+                            <p class="text-xl text-gray-600 mb-8">
+                                Complete checklist for Abu Dhabi company formation
+                                requirements and compliance
+                            </p>
+
+                            <div class="space-y-4">
+                                <div
+                                    class="flex items-start space-x-3 p-4 bg-white rounded-lg shadow-sm"
+                                >
+                                    <i
+                                        data-lucide="file-text"
+                                        class="w-5 h-5 text-custom-600 mt-1 flex-shrink-0"
+                                    ></i>
+                                    <div>
+                                        <h4 class="font-semibold">
+                                            Passport Copies & Emirates ID
+                                        </h4>
+                                        <p class="text-sm text-gray-600">
+                                            Valid passport copies and Emirates ID for UAE residents
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="flex items-start space-x-3 p-4 bg-white rounded-lg shadow-sm"
+                                >
+                                    <i
+                                        data-lucide="graduation-cap"
+                                        class="w-5 h-5 text-custom-600 mt-1 flex-shrink-0"
+                                    ></i>
+                                    <div>
+                                        <h4 class="font-semibold">
+                                            Educational Certificates (Attested)
+                                        </h4>
+                                        <p class="text-sm text-gray-600">
+                                            Ministry attested academic qualifications and professional degrees
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="flex items-start space-x-3 p-4 bg-white rounded-lg shadow-sm"
+                                >
+                                    <i
+                                        data-lucide="briefcase"
+                                        class="w-5 h-5 text-custom-600 mt-1 flex-shrink-0"
+                                    ></i>
+                                    <div>
+                                        <h4 class="font-semibold">
+                                            Professional Experience Letters
+                                        </h4>
+                                        <p class="text-sm text-gray-600">
+                                            Attested employment history and professional experience certificates
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="flex items-start space-x-3 p-4 bg-white rounded-lg shadow-sm"
+                                >
+                                    <i
+                                        data-lucide="check-circle"
+                                        class="w-5 h-5 text-custom-600 mt-1 flex-shrink-0"
+                                    ></i>
+                                    <div>
+                                        <h4 class="font-semibold">
+                                            Abu Dhabi NOC Requirements
+                                        </h4>
+                                        <p class="text-sm text-gray-600">
+                                            No objection certificates from current Abu Dhabi employer if applicable
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="flex items-start space-x-3 p-4 bg-white rounded-lg shadow-sm"
+                                >
+                                    <i
+                                        data-lucide="clipboard"
+                                        class="w-5 h-5 text-custom-600 mt-1 flex-shrink-0"
+                                    ></i>
+                                    <div>
+                                        <h4 class="font-semibold">
+                                            Detailed Business Plan
+                                        </h4>
+                                        <p class="text-sm text-gray-600">
+                                            Comprehensive business plan for Abu Dhabi authority review
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="flex items-start space-x-3 p-4 bg-white rounded-lg shadow-sm"
+                                >
+                                    <i
+                                        data-lucide="home"
+                                        class="w-5 h-5 text-custom-600 mt-1 flex-shrink-0"
+                                    ></i>
+                                    <div>
+                                        <h4 class="font-semibold">
+                                            Abu Dhabi Office Documentation
+                                        </h4>
+                                        <p class="text-sm text-gray-600">
+                                            Office lease agreement or NOC from Abu Dhabi landlord
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bg-custom-600 p-8 rounded-xl text-white">
+                            <h3 class="text-2xl font-bold mb-6">
+                                Abu Dhabi Document Support
+                            </h3>
+                            <p class="mb-6">
+                                Our Abu Dhabi specialists provide end-to-end support
+                                for document preparation, government attestation, and
+                                regulatory submission.
+                            </p>
+
+                            <div class="space-y-4 mb-8">
+                                <div class="flex items-center space-x-3">
+                                    <i
+                                        data-lucide="check"
+                                        class="w-5 h-5 flex-shrink-0"
+                                    ></i>
+                                    <span
+                                        >Document review and compliance verification</span
+                                    >
+                                </div>
+                                <div class="flex items-center space-x-3">
+                                    <i
+                                        data-lucide="check"
+                                        class="w-5 h-5 flex-shrink-0"
+                                    ></i>
+                                    <span
+                                        >Ministry attestation and apostille services</span
+                                    >
+                                </div>
+                                <div class="flex items-center space-x-3">
+                                    <i
+                                        data-lucide="check"
+                                        class="w-5 h-5 flex-shrink-0"
+                                    ></i>
+                                    <span
+                                        >Professional translation (Arabic/English)</span
+                                    >
+                                </div>
+                                <div class="flex items-center space-x-3">
+                                    <i
+                                        data-lucide="check"
+                                        class="w-5 h-5 flex-shrink-0"
+                                    ></i>
+                                    <span>Authority submission and follow-up</span>
+                                </div>
+                            </div>
+
+                            <button
+                                class="w-full px-6 py-3 bg-white text-custom-600 rounded-lg hover:bg-gray-100 transition-colors font-semibold"
+                            >
+                                Get Abu Dhabi Checklist
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Success Stories Section -->
+            <section class="py-20 bg-white">
+                <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 xl:px-16">
+                    <div class="text-center mb-16">
+                        <h2
+                            class="text-3xl md:text-4xl font-bold text-gray-900 mb-4"
+                        >
+                            Abu Dhabi Success Stories
+                        </h2>
+                        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                            Discover how we've helped 300+ companies achieve
+                            exceptional success in Abu Dhabi across energy, finance, and government sectors.
+                        </p>
+                    </div>
+
+                    <!-- Featured Success Stories -->
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
+                        <!-- Featured Story 1 -->
+                        <div
+                            class="bg-gray-50 rounded-2xl p-8 border border-gray-200 hover:shadow-lg transition-shadow"
+                        >
+                            <div class="flex items-center mb-6">
+                                <div
+                                    class="bg-custom-600 text-white rounded-lg p-3 mr-4"
+                                >
+                                    <i data-lucide="zap" class="w-6 h-6"></i>
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-bold text-gray-900">
+                                        GreenTech Solutions
+                                    </h3>
+                                    <p class="text-gray-600">
+                                        Renewable Energy & CleanTech
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="space-y-3 mb-6">
+                                <p class="text-gray-600">
+                                    <strong>Challenge:</strong> European renewable energy company needed Abu Dhabi market entry 
+                                    with Masdar City setup and government partnership facilitation.
+                                </p>
+                                <p class="text-gray-600">
+                                    <strong>Results:</strong> Masdar City license in 14 days, AED 50M government contract secured, 
+                                    40% faster setup than competitors.
+                                </p>
+                            </div>
+
+                            <blockquote
+                                class="border-l-4 border-custom-600 pl-4 italic text-gray-700 bg-white p-4 rounded-r-lg"
+                            >
+                                "Aziend's deep understanding of Abu Dhabi's sustainability agenda was crucial 
+                                to our rapid market penetration."
+                                <footer class="text-sm text-gray-500 mt-2">
+                                    — Lars Hansen, CEO
+                                </footer>
+                            </blockquote>
+                        </div>
+
+                        <!-- Featured Story 2 -->
+                        <div
+                            class="bg-gray-50 rounded-2xl p-8 border border-gray-200 hover:shadow-lg transition-shadow"
+                        >
+                            <div class="flex items-center mb-6">
+                                <div
+                                    class="bg-custom-600 text-white rounded-lg p-3 mr-4"
+                                >
+                                    <i
+                                        data-lucide="banknote"
+                                        class="w-6 h-6"
+                                    ></i>
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-bold text-gray-900">
+                                        Capital Investment Partners
+                                    </h3>
+                                    <p class="text-gray-600">
+                                        Private Equity & Asset Management
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="space-y-3 mb-6">
+                                <p class="text-gray-600">
+                                    <strong>Challenge:</strong> International fund manager required ADGM license 
+                                    with FSRA regulatory approval for Middle East operations.
+                                </p>
+                                <p class="text-gray-600">
+                                    <strong>Results:</strong> ADGM license in 21 days, FSRA approval in 6 weeks, 
+                                    AED 500M assets under management, 5 sovereign wealth fund partnerships.
+                                </p>
+                            </div>
+
+                            <blockquote
+                                class="border-l-4 border-custom-600 pl-4 italic text-gray-700 bg-white p-4 rounded-r-lg"
+                            >
+                                "The regulatory expertise and government connections were game-changing 
+                                for our Abu Dhabi expansion."
+                                <footer class="text-sm text-gray-500 mt-2">
+                                    — Victoria Chen, Managing Director
+                                </footer>
+                            </blockquote>
+                        </div>
+
+                        <!-- Featured Story 3 -->
+                        <div
+                            class="bg-gray-50 rounded-2xl p-8 border border-gray-200 hover:shadow-lg transition-shadow"
+                        >
+                            <div class="flex items-center mb-6">
+                                <div
+                                    class="bg-custom-600 text-white rounded-lg p-3 mr-4"
+                                >
+                                    <i
+                                        data-lucide="factory"
+                                        class="w-6 h-6"
+                                    ></i>
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-bold text-gray-900">
+                                        Emirates Manufacturing Hub
+                                    </h3>
+                                    <p class="text-gray-600">
+                                        Advanced Manufacturing & Logistics
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="space-y-3 mb-6">
+                                <p class="text-gray-600">
+                                    <strong>Challenge:</strong> German automotive parts manufacturer needed 
+                                    KIZAD industrial setup with port connectivity and supply chain integration.
+                                </p>
+                                <p class="text-gray-600">
+                                    <strong>Results:</strong> KIZAD license in 10 days, 50,000 sqm facility, 
+                                    30% logistics cost reduction, 200+ local jobs created.
+                                </p>
+                            </div>
+
+                            <blockquote
+                                class="border-l-4 border-custom-600 pl-4 italic text-gray-700 bg-white p-4 rounded-r-lg"
+                            >
+                                "The industrial infrastructure and port connectivity exceeded our expectations 
+                                for Middle East operations."
+                                <footer class="text-sm text-gray-500 mt-2">
+                                    — Klaus Weber, Operations Director
+                                </footer>
+                            </blockquote>
+                        </div>
+
+                        <!-- Featured Story 4 -->
+                        <div
+                            class="bg-gray-50 rounded-2xl p-8 border border-gray-200 hover:shadow-lg transition-shadow"
+                        >
+                            <div class="flex items-center mb-6">
+                                <div
+                                    class="bg-custom-600 text-white rounded-lg p-3 mr-4"
+                                >
+                                    <i data-lucide="landmark" class="w-6 h-6"></i>
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-bold text-gray-900">
+                                        Gulf Advisory Services
+                                    </h3>
+                                    <p class="text-gray-600">
+                                        Government Relations & Consulting
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="space-y-3 mb-6">
+                                <p class="text-gray-600">
+                                    <strong>Challenge:</strong> International consulting firm needed Abu Dhabi mainland 
+                                    setup for government contract eligibility and regulatory advisory services.
+                                </p>
+                                <p class="text-gray-600">
+                                    <strong>Results:</strong> Mainland license in 8 days, 12 government contracts worth 
+                                    AED 25M, 85% repeat client rate.
+                                </p>
+                            </div>
+
+                            <blockquote
+                                class="border-l-4 border-custom-600 pl-4 italic text-gray-700 bg-white p-4 rounded-r-lg"
+                            >
+                                "Access to government contracts and regulatory insights transformed 
+                                our regional growth strategy."
+                                <footer class="text-sm text-gray-500 mt-2">
+                                    — Ahmed Al-Mansouri, Regional Director
+                                </footer>
+                            </blockquote>
+                        </div>
+                    </div>
+
+                    <!-- Key Statistics -->
+                    <div class="grid grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+                        <div class="text-center">
+                            <div
+                                class="text-3xl font-bold text-custom-600 mb-2"
+                            >
+                                300+
+                            </div>
+                            <p class="text-gray-600">Companies Formed</p>
+                        </div>
+                        <div class="text-center">
+                            <div
+                                class="text-3xl font-bold text-custom-600 mb-2"
+                            >
+                                97%
+                            </div>
+                            <p class="text-gray-600">Client Satisfaction</p>
+                        </div>
+                        <div class="text-center">
+                            <div
+                                class="text-3xl font-bold text-custom-600 mb-2"
+                            >
+                                1B+
+                            </div>
+                            <p class="text-gray-600">AED Capital Facilitated</p>
+                        </div>
+                        <div class="text-center">
+                            <div
+                                class="text-3xl font-bold text-custom-600 mb-2"
+                            >
+                                8
+                            </div>
+                            <p class="text-gray-600">Days Average Setup</p>
+                        </div>
+                    </div>
+
+                    <!-- CTA -->
+                    <div class="text-center">
+                        <a
+                            href="uae-success-stories.html"
+                            class="inline-flex items-center px-8 py-4 bg-custom-600 text-white font-semibold rounded-lg hover:bg-custom-700 transition-colors"
+                        >
+                            <i
+                                data-lucide="arrow-right"
+                                class="w-5 h-5 mr-2"
+                            ></i>
+                            Explore More Abu Dhabi Success Stories
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Live Regulation Updates -->
+            <section class="py-20 bg-gray-50">
+                <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 xl:px-16">
+                    <!-- Ticker -->
+                    <div class="mb-16">
+                        <div
+                            class="bg-custom-600 text-white px-6 py-3 rounded-lg mb-4"
+                        >
+                            <div class="flex items-center">
+                                <i
+                                    data-lucide="trending-up"
+                                    class="w-5 h-5 mr-3"
+                                ></i>
+                                <span class="font-semibold"
+                                    >Latest Abu Dhabi Business Updates</span
+                                >
+                            </div>
+                        </div>
+                        <div
+                            class="overflow-hidden bg-white border border-gray-200 rounded-lg"
+                        >
+                            <div
+                                id="abudhabi-regulation-ticker"
+                                class="whitespace-nowrap animate-scroll-left py-3 px-4 text-sm"
+                            >
+                                Abu Dhabi introduces new sustainability incentives for green businesses • ADGM launches enhanced FinTech framework • 
+                                Masdar City expands with new CleanTech zones • KIZAD announces industrial automation initiatives • 
+                                Abu Dhabi government streamlines mainland licensing process • New bilateral investment treaties signed with 15 countries
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="text-center mb-16">
+                        <h2
+                            class="text-3xl md:text-4xl font-bold text-gray-800 mb-4"
+                        >
+                            Abu Dhabi Regulation Updates
+                        </h2>
+                        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                            Stay informed with the latest Abu Dhabi business
+                            regulations, government initiatives, and compliance requirements
+                        </p>
+                    </div>
+
+                    <!-- Filter Buttons -->
+                    <div class="flex flex-wrap justify-center gap-3 mb-12">
+                        <button
+                            class="filter-btn px-4 py-2 bg-custom-600 text-white rounded-lg text-sm hover:bg-custom-700 transition-colors active"
+                            data-category="all"
+                        >
+                            All Updates
+                        </button>
+                        <button
+                            class="filter-btn px-4 py-2 border border-gray-300 text-gray-700 rounded-lg text-sm hover:bg-gray-100 transition-colors"
+                            data-category="energy"
+                        >
+                            Energy & Sustainability
+                        </button>
+                        <button
+                            class="filter-btn px-4 py-2 border border-gray-300 text-gray-700 rounded-lg text-sm hover:bg-gray-100 transition-colors"
+                            data-category="financial"
+                        >
+                            Financial Services
+                        </button>
+                        <button
+                            class="filter-btn px-4 py-2 border border-gray-300 text-gray-700 rounded-lg text-sm hover:bg-gray-100 transition-colors"
+                            data-category="industrial"
+                        >
+                            Industrial & Manufacturing
+                        </button>
+                        <button
+                            class="filter-btn px-4 py-2 border border-gray-300 text-gray-700 rounded-lg text-sm hover:bg-gray-100 transition-colors"
+                            data-category="government"
+                        >
+                            Government Initiatives
+                        </button>
+                        <button
+                            class="filter-btn px-4 py-2 border border-gray-300 text-gray-700 rounded-lg text-sm hover:bg-gray-100 transition-colors"
+                            data-category="visas"
+                        >
+                            Visas & Immigration
+                        </button>
+                    </div>
+
+                    <!-- Featured Updates Grid -->
+                    <div
+                        id="abudhabi-regulation-updates-grid"
+                        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12"
+                    >
+                        <!-- Sample regulation update cards will be populated by JavaScript -->
+                        <div class="bg-white rounded-lg p-6 border border-gray-200 hover:shadow-md transition-shadow">
+                            <div class="flex items-center mb-3">
+                                <span class="bg-custom-100 text-custom-800 text-xs font-medium px-2.5 py-0.5 rounded">Energy</span>
+                                <span class="text-gray-500 text-sm ml-auto">Sept 5, 2025</span>
+                            </div>
+                            <h3 class="font-semibold text-gray-900 mb-2">New Renewable Energy Incentives</h3>
+                            <p class="text-gray-600 text-sm mb-3">Abu Dhabi introduces enhanced tax benefits for companies investing in renewable energy infrastructure.</p>
+                            <a href="#" class="text-custom-600 text-sm font-medium hover:text-custom-700">Read more →</a>
+                        </div>
+                    </div>
+
+                    <!-- Newsletter Signup -->
+                    <div class="bg-white rounded-xl p-8 shadow-md text-center">
+                        <h3 class="text-2xl font-bold mb-4 text-gray-800">
+                            Stay Updated on Abu Dhabi
+                        </h3>
+                        <p class="text-gray-600 mb-6">
+                            Get the latest Abu Dhabi business regulation updates
+                            and government initiatives delivered to your inbox
+                        </p>
+                        <div
+                            class="flex flex-col sm:flex-row gap-4 max-w-md mx-auto"
+                        >
+                            <input
+                                type="email"
+                                id="abudhabi-newsletter-email"
+                                placeholder="your@email.com"
+                                class="flex-1 px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-custom-600 focus:border-custom-600"
+                            />
+                            <button
+                                id="subscribe-abudhabi-updates"
+                                class="px-6 py-3 bg-custom-600 text-white rounded-lg hover:bg-custom-700 transition-colors"
+                            >
+                                Subscribe
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact -->
+            <section id="contact" class="py-20 bg-gray-900 text-white">
+                <div class="container mx-auto px-6 sm:px-8 lg:px-12 xl:px-16">
+                    <div class="grid lg:grid-cols-2 gap-12 items-start">
+                        <div>
+                            <h2 class="text-4xl font-bold mb-6">
+                                Ready to establish your business in Abu Dhabi?
+                            </h2>
+                            <p class="text-xl mb-8 opacity-90">
+                                45-minute consultation. Same-day response from
+                                our Abu Dhabi office.
+                            </p>
+
+                            <div class="space-y-4">
+                                <div class="flex items-center space-x-4">
+                                    <i
+                                        data-lucide="mail"
+                                        class="w-5 h-5 flex-shrink-0"
+                                    ></i>
+                                    <div>abudhabi@aziend.com</div>
+                                </div>
+                                <div class="flex items-center space-x-4">
+                                    <i
+                                        data-lucide="phone"
+                                        class="w-5 h-5 flex-shrink-0"
+                                    ></i>
+                                    <div>+971 2 234 5678</div>
+                                </div>
+                                <div class="flex items-center space-x-4">
+                                    <i
+                                        data-lucide="map-pin"
+                                        class="w-5 h-5 flex-shrink-0"
+                                    ></i>
+                                    <div>
+                                        Abu Dhabi Global Market (ADGM), Abu Dhabi, UAE
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bg-white text-gray-900 rounded-xl p-6">
+                            <h3 class="text-xl font-semibold mb-2">
+                                Start your Abu Dhabi journey
+                            </h3>
+                            <p class="text-gray-600 mb-6">
+                                We'll respond within 4 hours during Abu Dhabi
+                                business hours
+                            </p>
+
+                            <form id="abudhabi-contact-form" class="space-y-4">
+                                <div class="grid md:grid-cols-2 gap-4">
+                                    <div>
+                                        <label
+                                            for="abudhabi-name"
+                                            class="block text-sm font-medium mb-1"
+                                            >Name *</label
+                                        >
+                                        <input
+                                            type="text"
+                                            id="abudhabi-name"
+                                            name="name"
+                                            required
+                                            class="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-custom-500"
+                                            placeholder="Full name"
+                                        />
+                                    </div>
+                                    <div>
+                                        <label
+                                            for="abudhabi-email"
+                                            class="block text-sm font-medium mb-1"
+                                            >Work Email *</label
+                                        >
+                                        <input
+                                            type="email"
+                                            id="abudhabi-email"
+                                            name="email"
+                                            required
+                                            class="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-custom-500"
+                                            placeholder="your@company.com"
+                                        />
+                                    </div>
+                                </div>
+                                <div class="grid md:grid-cols-2 gap-4">
+                                    <div>
+                                        <label
+                                            for="abudhabi-company"
+                                            class="block text-sm font-medium mb-1"
+                                            >Company *</label
+                                        >
+                                        <input
+                                            type="text"
+                                            id="abudhabi-company"
+                                            name="company"
+                                            required
+                                            class="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-custom-500"
+                                            placeholder="Company name"
+                                        />
+                                    </div>
+                                    <div>
+                                        <label
+                                            for="abudhabi-role"
+                                            class="block text-sm font-medium mb-1"
+                                            >Role *</label
+                                        >
+                                        <select
+                                            id="abudhabi-role"
+                                            name="role"
+                                            required
+                                            class="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-custom-500"
+                                        >
+                                            <option value="">
+                                                Select role
+                                            </option>
+                                            <option value="founder">
+                                                Founder/Entrepreneur
+                                            </option>
+                                            <option value="ceo">
+                                                CEO/President
+                                            </option>
+                                            <option value="cto">CTO</option>
+                                            <option value="cfo">CFO</option>
+                                            <option value="manager">
+                                                Manager
+                                            </option>
+                                            <option value="director">
+                                                Director
+                                            </option>
+                                            <option value="other">Other</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div>
+                                    <label
+                                        for="abudhabi-message"
+                                        class="block text-sm font-medium mb-1"
+                                        >Abu Dhabi Business Challenge</label
+                                    >
+                                    <textarea
+                                        id="abudhabi-message"
+                                        name="message"
+                                        rows="4"
+                                        class="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-custom-500"
+                                        placeholder="Tell us about your Abu Dhabi business expansion plans or challenges..."
+                                    ></textarea>
+                                </div>
+                                <button
+                                    type="submit"
+                                    class="w-full px-6 py-3 bg-custom-600 text-white rounded hover:bg-custom-700 transition-colors flex items-center justify-center"
+                                >
+                                    Send message
+                                    <i
+                                        data-lucide="arrow-right"
+                                        class="w-4 h-4 ml-2"
+                                    ></i>
+                                </button>
+                                <div class="text-xs text-gray-500 text-center">
+                                    We'll never share your information. UAE Data
+                                    Protection compliant.
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <footer class="bg-gray-900 text-white">
+                <!-- Main Footer -->
+                <div class="py-16">
+                    <div
+                        class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 xl:px-16"
+                    >
+                        <div
+                            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8"
+                        >
+                            <!-- Column 1: Aziend Branding -->
+                            <div class="lg:col-span-1">
+                                <div
+                                    class="text-2xl font-bold text-custom-600 mb-4"
+                                >
+                                    Aziend
+                                </div>
+                                <p class="text-custom-600 font-medium mb-3">
+                                    Your Abu Dhabi Business Success Partner
+                                </p>
+                                <p class="text-gray-300 mb-4 leading-relaxed">
+                                    Expert Abu Dhabi business consultancy providing
+                                    comprehensive solutions for company
+                                    formation, government relations, compliance, and sustainable business
+                                    growth across Abu Dhabi.
+                                </p>
+                                <div class="flex items-center text-sm">
+                                    <i
+                                        data-lucide="shield-check"
+                                        class="h-4 w-4 text-custom-600 mr-2"
+                                    ></i>
+                                    <span class="text-gray-300"
+                                        >Abu Dhabi Licensed & Regulated</span
+                                    >
+                                </div>
+                            </div>
+
+                            <!-- Column 2: Services Navigation -->
+                            <div class="lg:col-span-1">
+                                <h3
+                                    class="text-lg font-semibold text-white mb-4"
+                                >
+                                    Our Services
+                                </h3>
+                                <ul class="space-y-3">
+                                    <li>
+                                        <a
+                                            href="company-formation.html"
+                                            class="text-gray-300 hover:text-custom-600 transition-colors"
+                                            >Company Formation</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="banking-treasury.html"
+                                            class="text-gray-300 hover:text-custom-600 transition-colors"
+                                            >Banking & Treasury</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="customs-trade.html"
+                                            class="text-gray-300 hover:text-custom-600 transition-colors"
+                                            >Customs & Trade</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="accounting-payroll-wps.html"
+                                            class="text-gray-300 hover:text-custom-600 transition-colors"
+                                            >Accounting & Payroll</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="corporate-tax.html"
+                                            class="text-gray-300 hover:text-custom-600 transition-colors"
+                                            >Corporate Tax</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="vat.html"
+                                            class="text-gray-300 hover:text-custom-600 transition-colors"
+                                            >VAT Services</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="ma-dd-valuations.html"
+                                            class="text-gray-300 hover:text-custom-600 transition-colors"
+                                            >M&A Advisory</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="corporate-governance-policies.html"
+                                            class="text-gray-300 hover:text-custom-600 transition-colors"
+                                            >Corporate Governance</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="esr-ubo-aml.html"
+                                            class="text-gray-300 hover:text-custom-600 transition-colors"
+                                            >ESR & Compliance</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- Column 3: Company Links -->
+                            <div class="lg:col-span-1">
+                                <h3
+                                    class="text-lg font-semibold text-white mb-4"
+                                >
+                                    Company
+                                </h3>
+                                <ul class="space-y-3">
+                                    <li>
+                                        <a
+                                            href="about.html"
+                                            class="text-gray-300 hover:text-custom-600 transition-colors"
+                                            >About Us</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="services.html"
+                                            class="text-gray-300 hover:text-custom-600 transition-colors"
+                                            >Services Overview</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="contact.html"
+                                            class="text-gray-300 hover:text-custom-600 transition-colors"
+                                            >Contact Us</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="contact.html"
+                                            class="text-gray-300 hover:text-custom-600 transition-colors"
+                                            >Free Consultation</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="uae-business-setup.html"
+                                            class="text-gray-300 hover:text-custom-600 transition-colors"
+                                            >Abu Dhabi Business Guide</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- Column 4: Contact Information -->
+                            <div class="lg:col-span-1">
+                                <h3
+                                    class="text-lg font-semibold text-white mb-4"
+                                >
+                                    Get In Touch
+                                </h3>
+                                <div class="space-y-3">
+                                    <div class="flex items-start">
+                                        <i
+                                            data-lucide="map-pin"
+                                            class="h-5 w-5 text-custom-600 mr-3 mt-0.5"
+                                        ></i>
+                                        <span class="text-gray-300"
+                                            >ADGM, Abu Dhabi, UAE</span
+                                        >
+                                    </div>
+                                    <div class="flex items-center">
+                                        <i
+                                            data-lucide="phone"
+                                            class="h-5 w-5 text-custom-600 mr-3"
+                                        ></i>
+                                        <a
+                                            href="tel:+971234567890"
+                                            class="text-gray-300 hover:text-custom-600 transition-colors"
+                                            >+971 2 234 5678</a
+                                        >
+                                    </div>
+                                    <div class="flex items-center">
+                                        <i
+                                            data-lucide="mail"
+                                            class="h-5 w-5 text-custom-600 mr-3"
+                                        ></i>
+                                        <a
+                                            href="mailto:abudhabi@aziend.com"
+                                            class="text-gray-300 hover:text-custom-600 transition-colors"
+                                            >abudhabi@aziend.com</a
+                                        >
+                                    </div>
+                                    <div class="flex items-start">
+                                        <i
+                                            data-lucide="clock"
+                                            class="h-5 w-5 text-custom-600 mr-3 mt-0.5"
+                                        ></i>
+                                        <span class="text-gray-300"
+                                            >Sun-Thu: 8AM-5PM GST</span
+                                        >
+                                    </div>
+                                    <div class="flex items-start">
+                                        <i
+                                            data-lucide="headphones"
+                                            class="h-5 w-5 text-custom-600 mr-3 mt-0.5"
+                                        ></i>
+                                        <span class="text-gray-300"
+                                            >24/7 Emergency Support</span
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bottom Footer Bar -->
+                <div class="border-t border-gray-800">
+                    <div
+                        class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 xl:px-16 py-6"
+                    >
+                        <div
+                            class="flex flex-col md:flex-row justify-between items-center"
+                        >
+                            <!-- Copyright -->
+                            <div class="text-gray-400 text-sm mb-4 md:mb-0">
+                                © 2025 Aziend. All rights reserved.
+                            </div>
+
+                            <!-- Legal Links -->
+                            <div
+                                class="flex items-center space-x-6 text-sm mb-4 md:mb-0"
+                            >
+                                <a
+                                    href="privacy-policy.html"
+                                    class="text-gray-400 hover:text-custom-600 transition-colors"
+                                    >Privacy Policy</a
+                                >
+                                <a
+                                    href="terms-of-service.html"
+                                    class="text-gray-400 hover:text-custom-600 transition-colors"
+                                    >Terms of Service</a
+                                >
+                                <a
+                                    href="cookie-policy.html"
+                                    class="text-gray-400 hover:text-custom-600 transition-colors"
+                                    >Cookie Policy</a
+                                >
+                            </div>
+
+                            <!-- Social Media Icons -->
+                            <div class="flex items-center space-x-4">
+                                <a
+                                    href="#"
+                                    class="text-gray-400 hover:text-custom-600 transition-colors"
+                                >
+                                    <i
+                                        data-lucide="linkedin"
+                                        class="h-5 w-5"
+                                    ></i>
+                                </a>
+                                <a
+                                    href="#"
+                                    class="text-gray-400 hover:text-custom-600 transition-colors"
+                                >
+                                    <i
+                                        data-lucide="twitter"
+                                        class="h-5 w-5"
+                                    ></i>
+                                </a>
+                                <a
+                                    href="#"
+                                    class="text-gray-400 hover:text-custom-600 transition-colors"
+                                >
+                                    <i
+                                        data-lucide="facebook"
+                                        class="h-5 w-5"
+                                    ></i>
+                                </a>
+                                <a
+                                    href="#"
+                                    class="text-gray-400 hover:text-custom-600 transition-colors"
+                                >
+                                    <i
+                                        data-lucide="instagram"
+                                        class="h-5 w-5"
+                                    ></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </main>
+
+        <!-- JavaScript Modules -->
+        <script src="js/performance.js"></script>
+        <script src="js/utils.js"></script>
+        <script src="js/data.js"></script>
+        <script src="js/core.js"></script>
+        <script src="js/calculators.js" defer></script>
+        <script src="js/forms.js" defer></script>
+
+        <!-- Abu Dhabi Calculator Script -->
+        <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Abu Dhabi-specific calculator functionality
+            const jurisdictionSelect = document.getElementById('abudhabi-jurisdiction');
+            const activitySelect = document.getElementById('abudhabi-activity');
+            const shareholdersSelect = document.getElementById('abudhabi-shareholders');
+            const visaSlider = document.getElementById('abudhabi-visas');
+            const visaCountDisplay = document.getElementById('abudhabi-visa-count');
+            const officeButtons = document.querySelectorAll('.abudhabi-office-btn');
+            const calculateButton = document.getElementById('calculate-abudhabi-cost');
+
+            // Visa slider functionality
+            if (visaSlider && visaCountDisplay) {
+                visaSlider.addEventListener('input', function() {
+                    visaCountDisplay.textContent = this.value;
+                    calculateAbuDhabiCost();
+                });
+            }
+
+            // Office type buttons
+            officeButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    officeButtons.forEach(btn => btn.classList.remove('active', 'bg-custom-600', 'text-white'));
+                    this.classList.add('active', 'bg-custom-600', 'text-white');
+                    calculateAbuDhabiCost();
+                });
+            });
+
+            // Form change listeners
+            [jurisdictionSelect, activitySelect, shareholdersSelect].forEach(element => {
+                if (element) {
+                    element.addEventListener('change', calculateAbuDhabiCost);
+                }
+            });
+
+            // Calculate button
+            if (calculateButton) {
+                calculateButton.addEventListener('click', function() {
+                    calculateAbuDhabiCost();
+                    // Scroll to results
+                    document.getElementById('abudhabi-cost-display').scrollIntoView({ 
+                        behavior: 'smooth', 
+                        block: 'nearest' 
+                    });
+                });
+            }
+
+            function calculateAbuDhabiCost() {
+                const jurisdiction = jurisdictionSelect?.value || 'mainland';
+                const activity = activitySelect?.value || 'consulting';
+                const shareholders = parseInt(shareholdersSelect?.value) || 1;
+                const visas = parseInt(visaSlider?.value) || 2;
+                const activeOfficeBtn = document.querySelector('.abudhabi-office-btn.active');
+                const officeType = activeOfficeBtn?.dataset.type || 'virtual';
+
+                // Base costs for different Abu Dhabi jurisdictions
+                const jurisdictionCosts = {
+                    'mainland': { license: 30000, govt: 6000, timeline: '8-12 days' },
+                    'adgm': { license: 40000, govt: 10000, timeline: '7-10 days' },
+                    'kizad': { license: 25000, govt: 4000, timeline: '5-7 days' },
+                    'adafz': { license: 22000, govt: 3500, timeline: '5-7 days' },
+                    'twofour54': { license: 30000, govt: 5000, timeline: '6-8 days' },
+                    'zonescorp': { license: 20000, govt: 3000, timeline: '5-7 days' },
+                    'masdar': { license: 35000, govt: 6000, timeline: '7-9 days' }
+                };
+
+                // Office costs
+                const officeCosts = {
+                    'virtual': 2000,
+                    'flexi': 10000,
+                    'dedicated': 18000
+                };
+
+                // Activity multipliers
+                const activityMultipliers = {
+                    'trading': 1.0,
+                    'consulting': 1.1,
+                    'technology': 1.2,
+                    'financial': 1.5,
+                    'manufacturing': 1.3,
+                    'energy': 1.4,
+                    'media': 1.2,
+                    'healthcare': 1.3
+                };
+
+                const baseData = jurisdictionCosts[jurisdiction];
+                const licenseCost = Math.round(baseData.license * (activityMultipliers[activity] || 1.0));
+                const govtCost = baseData.govt + (shareholders > 1 ? (shareholders - 1) * 600 : 0);
+                const officeCost = officeCosts[officeType] || 2000;
+                const visaCost = visas * 3000;
+                const serviceCost = 5000;
+                const totalCost = licenseCost + govtCost + officeCost + visaCost + serviceCost;
+
+                // Update display
+                document.getElementById('abudhabi-license-cost').textContent = `AED ${licenseCost.toLocaleString()}`;
+                document.getElementById('abudhabi-govt-cost').textContent = `AED ${govtCost.toLocaleString()}`;
+                document.getElementById('abudhabi-office-cost').textContent = `AED ${officeCost.toLocaleString()}`;
+                document.getElementById('abudhabi-visa-cost').textContent = `AED ${visaCost.toLocaleString()}`;
+                document.getElementById('abudhabi-service-cost').textContent = `AED ${serviceCost.toLocaleString()}`;
+                document.getElementById('abudhabi-total-cost').textContent = `AED ${totalCost.toLocaleString()}`;
+                document.getElementById('abudhabi-timeline').textContent = baseData.timeline;
+            }
+
+            // Initialize calculator
+            calculateAbuDhabiCost();
+        });
+        </script>
+
+        <!--Start of Tawk.to Script-->
+        <script type="text/javascript">
+            var Tawk_API = Tawk_API || {},
+                Tawk_LoadStart = new Date();
+            (function () {
+                var s1 = document.createElement("script"),
+                    s0 = document.getElementsByTagName("script")[0];
+                s1.async = true;
+                s1.src = "https://embed.tawk.to/68b028a9890018192a45dbf9/1j3o1tm3k";
+                s1.charset = "UTF-8";
+                s1.setAttribute("crossorigin", "*");
+                s0.parentNode.insertBefore(s1, s0);
+            })();
+        </script>
+        <!--End of Tawk.to Script-->
+    </body>
+</html>
